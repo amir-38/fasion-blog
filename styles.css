@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(152, 153, 154);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  position: relative;
+}
+h1 {
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  font-size: 30px;
+  font-family: "Karma", serif;
+}
+h2 {
+  font-size: 16px;
+  text-align: center;
+  padding: 40px 0px;
+  font-family: "Karma", serif;
+}
+.img-header {
+  width: 100%;
+}
+.heading-title {
+  background-color: black;
+  color: white;
+  font-family: "Karma", serif;
+}
+.img-title {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  font-family: "Karma", serif;
+}
+.img-text {
+  color: white;
+  padding: 50px 0px 20px 30px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 36px;
+}
+.img-btn {
+  color: white;
+  padding: 12px 12px 8px;
+  background-color: rgb(159, 158, 158);
+  margin-left: 30px;
+  text-align: center;
+  font-size: 21px;
+  color: black;
+}
+.first-sec {
+  margin: 30px;
+  text-align: center;
+}
+.first-sec-img {
+  width: 100%;
+}
+.first-sec-container {
+  padding: 20px;
+  background-color: white;
+}
+.first-text {
+  text-align: justify;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.first-sec-head {
+  padding: 20px 0px;
+}
+.first-sec-scnd-text {
+  opacity: 0.6;
+}
+h5 {
+  padding-bottom: 20px;
+}
+.first-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-left {
+  padding: 8px 16px;
+  border: 1px solid black;
+}
+.btn-right {
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+}
+.replise-num {
+  background-color: white;
+  color: black;
+  padding: 2px 6px;
+}
+.hover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+.img-hover {
+  width: 90px;
+  padding-bottom: 30px;
+}
+.hover-txt-opasity {
+  opacity: 0.6;
+  font-size: 14px;
+}
+.first-hover-txt {
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.scnd-hover-txt {
+  font-size: 14px;
+  text-align: justify;
+}
+.my-name {
+  margin: 30px;
+}
+.my-name-img {
+  width: 100%;
+}
+.my-name-txt-pad {
+  padding: 0px 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+.popular-post {
+  margin: 30px;
+  background-color: white;
+}
+.hover-post {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+  border-bottom: 1px solid black;
+}
+.post-img {
+  width: 60px;
+  height: 60px;
+}
+.post-txt {
+  text-align: left;
+  padding-left: 20px;
+}
+.column-txt {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.post-txt-head {
+  padding: 7px 0px 6px 20px;
+}
+.post-head {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+.advertise {
+  background-color: white;
+  margin: 30px;
+}
+.advertise-div {
+  width: 50%;
+  height: 50%;
+  background-color: gray;
+  text-align: center;
+}
+.tags {
+  margin: 30px;
+}
+.tag-div {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tag {
+  padding: 8px;
+  line-height: 1;
+  background-color: rgb(220, 219, 219);
+  font-size: 10px;
+  margin: 15px 4px;
+}
+.inspiration {
+  margin: 30px;
+}
+.shaka {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .foto {
+  width: 48%;
+  padding: 20px;
+} */
+.foto-first {
+  width: 48%;
+  padding: 20px 0px 0px 20px;
+}
+.foto-sec {
+  width: 48%;
+  padding: 20px 20px 0px 20px;
+}
+.foto-third {
+  width: 48%;
+  padding: 20px 20px 20px 20px;
+}
+.foto-four {
+  width: 48%;
+  padding: 20px 20px 20px 0px;
+}
+.inspiration-img {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
